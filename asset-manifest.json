@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/weather-now/static/css/main.610f293d.css",
+    "main.js": "/weather-now/static/js/main.96a97e7f.js",
+    "service-worker.js": "/weather-now/service-worker.js",
+    "index.html": "/weather-now/index.html",
+    "main.610f293d.css.map": "/weather-now/static/css/main.610f293d.css.map",
+    "main.96a97e7f.js.map": "/weather-now/static/js/main.96a97e7f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.610f293d.css",
+    "static/js/main.96a97e7f.js"
+  ]
+}
