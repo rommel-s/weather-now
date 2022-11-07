@@ -1,0 +1,155 @@
+.mainDashboard {
+  width: 90%;
+  height: 30vh;
+  margin-top: 10px;
+  border-radius: 20px;
+
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.05);
+}
+
+.blackSky {
+  background-color: #000000;
+}
+
+.clearSky {
+  background-color: #009fe3;
+}
+
+.nightClearSky {
+  background-color: #030c60;
+}
+
+.cloudySky {
+  background-color: #8acae5;
+}
+
+.nightCloudySky {
+  background-color: #383c65;
+}
+
+.rainySky {
+  background-color: #8acae5;
+}
+
+.nightRainySky {
+  background-color: #383c65;
+}
+
+.snowy {
+  background-color: #8acae5;
+}
+
+.nightSnowy {
+  background-color: #383c65;
+}
+
+.mist {
+  background-color: #8acae5;
+}
+
+.nightMist {
+  background-color: #383c65;
+}
+
+.weatherInfo {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.temperaturesContainer {
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.currentTemp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #ffffff;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.thermalAmplitude {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 13px;
+  color: #ffffff;
+}
+
+/*secondary infos*/
+
+.secondaryInfos {
+  width: 90%;
+  height: 30vh;
+  margin-top: 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.pairContainer {
+  width: 50%;
+  height: 100%;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.secondaryContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 8px;
+}
+
+.measureLabel {
+  text-align: center;
+  color: rgba(146, 144, 144, 0.8);
+}
+
+.measureOutput {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.measureOutput svg {
+  margin-right: 15px;
+}
+
+/* tertiary infos */
+.tertiaryInfos {
+  width: 90%;
+  height: 30vh;
+  margin-top: 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
